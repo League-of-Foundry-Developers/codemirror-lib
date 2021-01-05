@@ -25,11 +25,16 @@
 	"compatibleCoreVersion": "1.0.0",
 	"scripts": [
 		"lib/codemirror.js",
-		"mode/javascript/javascript.js"
+		"mode/javascript/javascript.js",
+		"mode/css/css.js",
+		"mode/xml/xml.js",
+		"mode/htmlmixed/htmlmixed.js",
+		"mode/handlebars/handlebars.js",
+		"mode/markdown/markdown.js"
 	],
 	"styles": [
-        "codemirror-vtt.css",
-        "lib/codemirror.css"
+        "lib/codemirror.css",
+		"codemirror-vtt.css"
     ],
 	"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
 	"url": "https://github.com/League-of-Foundry-Developers/codemirror-lib",
