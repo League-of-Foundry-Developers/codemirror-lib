@@ -52,6 +52,13 @@
         "addon/hint/show-hint.css",
 		"codemirror-vtt.css"
     ],
+	"languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
 	"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
 	"url": "https://github.com/League-of-Foundry-Developers/codemirror-lib",
 	"download": "https://github.com/League-of-Foundry-Developers/codemirror-lib/releases/download/5.58.3-fvtt1/_mathjs.zip",
