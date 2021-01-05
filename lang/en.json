@@ -1,6 +1,10 @@
 {
 	"_CodeMirror": {
 		"settings": {
+			"macroEditor": {
+				"name": "Use for editing macros",
+				"hint": "Use a CodeMirror editor in the macro editing dialog. This setting is not compatible with other modules that modify the macro editor such as The Furnace."
+			},
 			"smartIndent": {
 				"name": "Smart Indentation",
 				"hint": "Whether to use the context-sensitive indentation that the mode provides (or just indent the same as the line before)."
@@ -20,7 +24,7 @@
 			"lineWrapping": {
 				"name": "Line Wrapping",
 				"hint": "Whether CodeMirror should scroll or wrap for long lines."
-			},
+			}
 		}
 	}
 }
