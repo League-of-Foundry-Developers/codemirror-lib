@@ -65,6 +65,6 @@ Hooks.once("init", function () {
             lineNumbers: true,
             inputStyle: "contenteditable",
             autofocus: true
-        });
+        }).on("change", (instance) => instance.save());
 	});
 });

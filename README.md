@@ -42,6 +42,16 @@ editor.save();
 
 This will ensure that the `textarea` has the same content as the editor. It's good to call this at some point before you parse the data of the form, allowing you to retrieve the data from the `textarea` as normal.
 
+Another option is to save on every change, by attaching an event handler to the CM object:
+
+```js
+CodeMirror.fromTextArea(textarea, { 
+    // options
+}).on("change", (instance) => instance.save());
+```
+
+This may be less efficient for large inputs.
+
 ### CodeMirror.userSettings
 This special getter has been added to the `CodeMirror` object, it returns an object of settings retrieved from Foundry's module settings. This includes a few editor configurations like tab type and size, or word wrap. These settings can be passed along with other options when creating an instance of a CodeMirror editor. The simplest method is to use the `...` spread operator to insert the key/value pairs of this object directly into the options:
 
