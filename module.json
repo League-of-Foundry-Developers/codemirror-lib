@@ -57,7 +57,7 @@
         {
             "lang": "en",
             "name": "English",
-            "path": "languages/en.json"
+            "path": "lang/en.json"
         }
     ],
 	"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
