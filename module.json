@@ -25,6 +25,7 @@
 	"compatibleCoreVersion": "1.0.0",
 	"scripts": [
 		"lib/codemirror.js",
+		"cm-game-settings.js",
 
 		"addon/mode/simple.js",
 		"addon/mode/multiplex.js",
