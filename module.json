@@ -30,7 +30,8 @@
 		"mode/xml/xml.js",
 		"mode/htmlmixed/htmlmixed.js",
 		"mode/handlebars/handlebars.js",
-		"mode/markdown/markdown.js"
+		"mode/markdown/markdown.js",
+		"mode/toml/toml.js"
 	],
 	"styles": [
         "lib/codemirror.css",
