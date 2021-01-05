@@ -1,4 +1,61 @@
-# CodeMirror
+# CodeMirror for Foundry VTT
+This package includes the CodeMirror editor library. A lightweight editor that can be used as a drop-in replacement for a textarea. The editor can be configured with text highlighting for various languages.
+
+This module also provides a small number of user configurable settings you can use when creating an editor instance to allow a degree of customization.
+## Integration
+Using the CM library as a dependency is very simple, this module already includes the following language modes:
+
+```
+javascript, css, xml, html, handlebars, markdown, toml, vue
+```
+
+Simply declare this module as a dependency by including the following in your manifest:
+
+```json
+"dependencies": [
+    {
+        "name": "_CodeMirror",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json"	
+    }
+]
+```
+
+You can now create an instance of CM in any way outlined in the CM documnetation. The simplest method is to "upgrade" a `textarea` into a CM instance, by passing a reference to the `textarea` element to the `fromTextArea` method.
+
+```js
+const editor = CodeMirror.fromTextArea(html.find("textarea")[0], { 
+    mode: "javascript",             // A mode like "javascript" or "css"
+    ...CodeMirror.userSettings,     // A special helper described later
+    lineNumbers: true,              // CM has a number of settings you can configure
+    inputStyle: "contenteditable",
+    autofocus: true
+});
+```
+This upgrades the `textarea` into a proper text editor.
+
+CodeMirror "saves" the editor data back to the original `textarea`, however sometimes you need to explicitly tell it to save, such as immediately before submitting a form. This can be done by using the `save()` method on a CodeMirror instance. With the exampe above:
+
+```js
+editor.save();
+```
+
+This will ensure that the `textarea` has the same content as the editor. It's good to call this at some point before you parse the data of the form, allowing you to retrieve the data from the `textarea` as normal.
+
+### CodeMirror.userSettings
+This special getter has been added to the `CodeMirror` object, it returns an object of settings retrieved from Foundry's module settings. This includes a few editor configurations like tab type and size, or word wrap. These settings can be passed along with other options when creating an instance of a CodeMirror editor. The simplest method is to use the `...` spread operator to insert the key/value pairs of this object directly into the options:
+
+```js
+CodeMirror.fromTextArea(textarea, { 
+    mode: "css",
+    ...CodeMirror.userSettings,
+    lineNumbers: true, // etc.
+})
+```
+
+This allows the user to configer editor preferences globally, while giving you a simple way to include those settings in your instance of the editor.
+
+# Original CodeMirror Readme
 
 [![Build Status](https://travis-ci.org/codemirror/CodeMirror.svg)](https://travis-ci.org/codemirror/CodeMirror)
 [![NPM version](https://img.shields.io/npm/v/codemirror.svg)](https://www.npmjs.org/package/codemirror)
