@@ -1,0 +1,43 @@
+{
+	"name": "_CodeMirror",
+	"title": "CodeMirror",
+	"description": "LIBRARY: CodeMirror - This module is just a dependency for other modules and does not offer any functionality on its own. This module includes the popular CodeMirror editor.",
+	"version": "5.58.3-fvtt1",
+	"library": true,
+	"author": "zeel",
+	"authors": [
+		{
+			"name": "zeel",
+			"email": "zeel02@gmail.com",
+			"url": "https://github.com/zeel01",
+			"discord": "zeel#4200"
+		},
+		{
+			"name": "The League of Extraodinary FVTT Developers",
+			"url": "https://github.com/League-of-Foundry-Developers"
+		},
+		{
+			"name": "Marijn Haverbeke",
+			"url": "marijnh@gmail.com"
+		}
+	],
+	"minimumCoreVersion": "0.0.0",
+	"compatibleCoreVersion": "1.0.0",
+	"scripts": [
+		"lib/codemirror.js",
+		"mode/javascript/javascript.js"
+	],
+	"styles": [
+        "codemirror-vtt.css",
+        "lib/codemirror.css"
+    ],
+	"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
+	"url": "https://github.com/League-of-Foundry-Developers/codemirror-lib",
+	"download": "https://github.com/League-of-Foundry-Developers/codemirror-lib/releases/download/5.58.3-fvtt1/_mathjs.zip",
+	"media": [
+		{
+			"type": "icon",
+			"link": "https://codemirror.net/doc/logo.png"
+		}
+	]
+}
