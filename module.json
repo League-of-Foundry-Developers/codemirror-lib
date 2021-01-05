@@ -25,6 +25,19 @@
 	"compatibleCoreVersion": "1.0.0",
 	"scripts": [
 		"lib/codemirror.js",
+
+		"addon/mode/simple.js",
+		"addon/mode/multiplex.js",
+		"addon/mode/matchbrackets.js",
+		"addon/mode/overlay.js",
+		"addon/hint/show-hint.js",
+		"addon/hint/css-hint.js",
+		"addon/hint/javascript-hint.js",
+		"addon/hint/html-hint.js",
+		"addon/selection/selection-pointer.js",
+		"addon/selection/mark-selection.js",
+		"addon/selection/active-line.js",
+
 		"mode/javascript/javascript.js",
 		"mode/css/css.js",
 		"mode/xml/xml.js",
@@ -36,6 +49,7 @@
 	],
 	"styles": [
         "lib/codemirror.css",
+        "addon/hint/show-hint.css",
 		"codemirror-vtt.css"
     ],
 	"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
