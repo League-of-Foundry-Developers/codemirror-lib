@@ -31,7 +31,8 @@
 		"mode/htmlmixed/htmlmixed.js",
 		"mode/handlebars/handlebars.js",
 		"mode/markdown/markdown.js",
-		"mode/toml/toml.js"
+		"mode/toml/toml.js",
+		"mode/vue/vue.js"
 	],
 	"styles": [
         "lib/codemirror.css",
