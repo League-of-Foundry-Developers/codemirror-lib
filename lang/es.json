@@ -1,0 +1,34 @@
+{
+	"_CodeMirror": {
+		"I18N": {
+            "LANGUAGE": "Español",
+            "MAINTAINERS": "@Viriato139ac#0342"
+        },
+		"settings": {
+			"macroEditor": {
+				"name": "Usar para la edición de macros",
+				"hint": "Usa un editor CodeMirror en el diálogo de edición de macros. Este ajuste no es compatible con otros modulos que editen el editor de macros, como The Furnace"
+			},
+			"smartIndent": {
+				"name": "Indentación inteligente",
+				"hint": "Si se debe usar la indentación sensible al contexto proporcionada por el modo actual (o simplemente indentar igual que la línea anterior)"
+			},
+			"indentUnit": {
+				"name": "Profundidad de indentidad",
+				"hint": "Cuantos espacios se deben indentar por bloque (cuya definición dependerá del lenguaje)"
+			},
+			"tabSize": {
+				"name": "Tamaño de tabulación",
+				"hint": "Ancho del carácter de tabulación"
+			},
+			"indentWithTabs": {
+				"name": "Indentar con tabulaciones",
+				"hint": "Si, al indentar, se deben reemplazar los primeros N*tabSize espacios con N tabulaciones"
+			},
+			"lineWrapping": {
+				"name": "Saltos de línea",
+				"hint": "Si CodeMirror debe desplazarse o recortar cuando se encuentre con líneas de gran longitud"
+			}
+		}
+	}
+}
