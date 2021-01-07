@@ -4,7 +4,9 @@
 	box-shadow: 0 0 12px -6px #00000070 inset;
 }
 .CodeMirror-gutters {
-    background-color: #c5c5c547;
+    background-image: url(../../ui/parchment.jpg);
+    background-color: hsl(0deg 0% 0% / 2%);
+    background-blend-mode: darken;
     box-shadow: 0 0 5px 0px #0000005c;
 }
 
