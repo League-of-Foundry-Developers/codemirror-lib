@@ -62,7 +62,7 @@
         {
             "lang": "es",
             "name": "Español",
-            "path": "langs/es.json"
+            "path": "lang/es.json"
         }
     ],
 	"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
