@@ -1,3 +1,4 @@
+![Code Mirror](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2F_CodeMirror.json)
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2F_CodeMirror&colorB=4aa94a)
 ![Latest Release Download Count](https://img.shields.io/github/downloads/League-of-Foundry-Developers/codemirror-lib/latest/_CodeMirror.zip) 
 
