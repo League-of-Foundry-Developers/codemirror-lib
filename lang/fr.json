@@ -1,0 +1,30 @@
+{
+	"_CodeMirror": {
+		"settings": {
+			"macroEditor": {
+				"name": "Utilisation pour l'édition de macros",
+				"hint": "Utiliser un éditeur CodeMirror dans la boîte de dialogue d'édition des macros. Ce paramètre n'est pas compatible avec d'autres modules qui modifient l'éditeur de macros, comme The Furnace."
+			},
+			"smartIndent": {
+				"name": "Indentation intelligente",
+				"hint": "Utilisation de l'indentation contextuelle fournie par le mode (ou indentation identique à celle de la ligne précédente)."
+			},
+			"indentUnit": {
+				"name": "Profondeur de l'indentation",
+				"hint": "Combien d'espaces un bloc (quelle que soit sa signification dans la langue éditée) doit-il être indenté ?"
+			},
+			"tabSize": {
+				"name": "Taille d'une tabulation",
+				"hint": "La largeur d'une tabulation."
+			},
+			"indentWithTabs": {
+				"name": "Indentation avec tabulation",
+				"hint": "Si, lors de l'indentation, les premiers espaces N*tabSize doivent être remplacés par N tabulations."
+			},
+			"lineWrapping": {
+				"name": "Retour à la ligne",
+				"hint": "Quand CodeMirror doit défiler ou effectuer un retour à la ligne."
+			}
+		}
+	}
+}
