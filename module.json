@@ -73,7 +73,7 @@
     ],
 	"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
 	"url": "https://github.com/League-of-Foundry-Developers/codemirror-lib",
-	"download": "https://github.com/League-of-Foundry-Developers/codemirror-lib/releases/download/5.58.3-fvtt3/_CodeMirror.zip",
+	"download": "https://github.com/League-of-Foundry-Developers/codemirror-lib/releases/download/5.58.3-fvtt4/_CodeMirror.zip",
 	"media": [
 		{
 			"type": "icon",
