@@ -29,7 +29,7 @@
 
 		"addon/mode/simple.js",
 		"addon/mode/multiplex.js",
-		"addon/mode/matchbrackets.js",
+		"addon/edit/matchbrackets.js",
 		"addon/mode/overlay.js",
 		"addon/hint/show-hint.js",
 		"addon/hint/css-hint.js",
