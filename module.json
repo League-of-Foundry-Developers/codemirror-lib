@@ -1,10 +1,10 @@
 {
 	"name": "_CodeMirror",
+	"id": "_CodeMirror",
 	"title": "CodeMirror",
 	"description": "LIBRARY: CodeMirror - This module is just a dependency for other modules to include the CodeMirror library. Also offers the ability to replace the default macro editor if desired.",
-	"version": "5.58.3-fvtt4",
+	"version": "5.58.3-fvtt5",
 	"library": true,
-	"author": "zeel",
 	"authors": [
 		{
 			"name": "zeel",
@@ -21,8 +21,12 @@
 			"url": "marijnh@gmail.com"
 		}
 	],
-	"minimumCoreVersion": "0.0.0",
-	"compatibleCoreVersion": "1.0.0",
+	"minimumCoreVersion": "6",
+	"compatibleCoreVersion": "10",
+	"compatibility": {
+		"minimum": 6,
+		"verified": 10
+	},
 	"scripts": [
 		"lib/codemirror.js",
 		"cm-game-settings.js",
@@ -70,9 +74,9 @@
             "path": "lang/fr.json"
         }
     ],
-	"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
+	"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/releases/latest/download/module.json",
 	"url": "https://github.com/League-of-Foundry-Developers/codemirror-lib",
-	"download": "https://github.com/League-of-Foundry-Developers/codemirror-lib/releases/download/5.58.3-fvtt4/_CodeMirror.zip",
+	"download": "https://github.com/League-of-Foundry-Developers/codemirror-lib/releases/download/5.58.3-fvtt5/_CodeMirror.zip",
 	"media": [
 		{
 			"type": "icon",
