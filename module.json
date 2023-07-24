@@ -22,10 +22,10 @@
 		}
 	],
 	"minimumCoreVersion": "6",
-	"compatibleCoreVersion": "10",
+	"compatibleCoreVersion": "11",
 	"compatibility": {
 		"minimum": 6,
-		"verified": 10
+		"verified": 11
 	},
 	"scripts": [
 		"lib/codemirror.js",
@@ -80,7 +80,7 @@
 	"media": [
 		{
 			"type": "icon",
-			"link": "https://codemirror.net/doc/logo.png"
+			"url": "https://codemirror.net/doc/logo.png"
 		}
 	]
 }
